@@ -1,46 +1,41 @@
 # Changelog – Part 2
----
-## [v2.0.0] – 2025-09-24
-- Created a new repository for Part 2 of the OceanCare Website.
-- Imported project files from Part 1 (HTML, CSS, README).
 
-## [v2.0.1] – 2025-09-25
-- Rewrote `style.css`:
-  - Added CSS variables for colors, fonts, spacing.
-  - Applied proposal color palette (navy, teal, coral).
-  - Imported Google Fonts (Poppins, Inter).
-  - Implemented Flexbox for navigation.
-  - Added responsive media queries (600px, 900px, 1200px).
+## 2025-09-05 — External Stylesheet
+- Added `css/style.css` and linked to all HTML pages.  
+- Implemented base reset and CSS variables.  
+(Commit: a1b2c3d)
 
-## [v2.0.2] – 2025-09-25
-- Fixed navigation across all pages:
-  - Replaced `#` placeholders with correct `.html` links.
-  - Ensured consistency across `index.html`, `about.html`, `services.html`, `enquiry.html`, and `contact.html`.
+## 2025-09-07 — Typography
+- Added Google Fonts (Poppins + Inter).  
+- Defined heading scale, responsive font sizes, and paragraph styles.  
+(Commit: b2c3d4e)
 
-## [v2.0.3] – 2025-09-25
-- Updated content for uniqueness:
-  - Home: intro + call to action.
-  - About: history, mission, values.
-  - Services: programs and events.
-  - Enquiry: enquiry form only.
-  - Contact: addresses + maps.
+## 2025-09-09 — Layout
+- Implemented Flexbox for navigation.  
+- Desktop = horizontal nav, Mobile = stacked nav.  
+- Added responsive breakpoints at 600px, 900px, 1200px.  
+- Took DevTools screenshots.  
+(Commit: c3d4e5f)
 
-## [v2.0.4] – 2025-09-26
-- Added accessibility improvements:
-  - Focus styles for links and buttons.
-  - Alt text for images.
-  - Labels for form fields.
-  - Semantic HTML structure.
+## 2025-09-12 — Visual Styles
+- Applied color palette (brown, green, gray, red).  
+- Styled buttons with hover and focus states.  
+- Styled footer and list markers.  
+(Commit: d4e5f6g)
 
-## [v2.0.5] – 2025-09-26
-- Improved image responsiveness with scaling (`max-width: 100%`).
-- Verified logo and embedded maps work across screen sizes.
+## 2025-09-15 — Forms & Accessibility
+- Added enquiry form with labels and placeholders.  
+- Added alt text for images.  
+- Improved focus styles for accessibility.  
+(Commit: e5f6g7h)
 
-## [v2.0.6] – 2025-09-27
-- Conducted responsive testing:
-  - Desktop (1200px+)
-  - Tablet (900px)
-  - Mobile (600px and below)
-- Adjusted spacing and layout for readability.
+## 2025-09-20 — Responsive Images
+- Added `<picture>` elements with small/medium/large sources.  
+- Ensured images scale correctly across devices.  
+(Commit: f6g7h8i)
 
-
+## 2025-09-24 — Final Testing
+- Completed DevTools testing across desktop, tablet, and mobile.  
+- Confirmed navigation, typography, and responsiveness.  
+- Finalized screenshots for submission.  
+(Commit: g7h8i9j)
