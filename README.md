@@ -31,15 +31,18 @@ The aim is to showcase a fully responsive, accessible, and styled website that a
 Screenshots captured using Chrome DevTools. Stored in `/screenshots/`.
 
 ### Desktop View
-![Desktop Screenshot](screenshots/desktop.png)  
+![Desktop Screenshot](screenshots/desktop.png) <img width="1593" height="850" alt="desktop" src="https://github.com/user-attachments/assets/9ddfeb14-a9be-4f4f-9cb0-fe5bbc389533" />
+ 
 *Tested at 1366px — navigation is horizontal, full layout visible.*
 
 ### Tablet View
-![Tablet Screenshot](screenshots/tablet.png)  
+![Tablet Screenshot](screenshots/tablet.png)  <img width="1582" height="868" alt="tablet" src="https://github.com/user-attachments/assets/5fb53def-56a3-406e-a1fd-1fcad146844c" />
+
 *Tested at 900px — navigation spaced evenly, layout adapts.*
 
 ### Mobile View
-![Mobile Screenshot](screenshots/mobile.png)  
+![Mobile Screenshot](screenshots/mobile.png) <img width="1585" height="826" alt="mobile" src="https://github.com/user-attachments/assets/92990a88-6a92-46f0-be53-f8110446b61a" />
+ 
 *Tested at 375px — navigation stacked vertically, single-column layout.*
 
 ---
